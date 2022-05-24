@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-bar {
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+/* If the percentages of the top bar and the column container are the same, don't put side padding on either. Just use margin to move things in the top bar. */
+.top-bar h1 {
+    color: white;
+    margin-left: 20px;
+}
+.feed-title {
+    margin: 18px 0px;
+    text-align: center;
+}
+.colcontainer {
+    width: 50%;
+    height: 800px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+}
+.colleft {
+    flex:1;
+    height: 450px;
+    margin-right: 20px;
+}
+.profile-info {
+    padding-bottom: 5px;
+    border-style: solid;
+    border-radius: 4px;
+    /* text-align:center; will work on images if you apply it to an overall div. It will not work on just the image itself */
+    text-align: center;
+}
+.profile-info img {
+    width: 120px;
+    margin-top: 25px;
+}
+.profile-info p {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 35px 0px;
+    cursor: pointer;
+}
+.profile-info h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.colright {
+    flex: 3;
+}
+.message-box {
+    padding: 28px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 4px;
+
+}
+.message-box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.message-box-top-right {
+    display: flex;
+    align-items: center;
+}
+.message-box-top-left h2{
+    font-size: 30px;
+}
+h3 {
+    margin-right: 40px;
+    font-size: 22px;
+}
+button {
+    background-color: #ffd966;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 2px 13px;
+    border-width: 3px;
+    box-shadow: 2.5px 2.5px 0px;
+    cursor: pointer;
+}
+.message-box-bottom p {
+    font-size: 21px;
+    font-weight: 490;
+}
+.message-box-bottom span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

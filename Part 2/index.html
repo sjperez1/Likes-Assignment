@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Network</h1>
+    </div>
+    <h1 class="feed-title">Your Feed</h1>
+    <div class="colcontainer">
+        <div class="colleft">
+            <div class="profile-info">
+                <img src="profile-icon.png" alt="Profile icon">
+                <p>Add an avatar</p>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="colright">
+            <div class="message-box">
+                <div class="message-box-top">
+                    <div class="message-box-top-left">
+                        <h2>Neil M</h2>
+                    </div>
+                    <div class="message-box-top-right">
+                        <h3><span id="like-number-top">9</span> like(s)</h3>
+                        <button onclick="increaseTopLikes()">Like</button>
+                    </div>
+                </div>
+                <div class="message-box-bottom">
+                    <p>I just set up this new discord bot, let me know what you all think. <span>link</span></p>
+                </div>
+            </div>
+            <div class="message-box">
+                <div class="message-box-top">
+                    <div class="message-box-top-left">
+                        <h2>Nichole K</h2>
+                    </div>
+                    <div class="message-box-top-right">
+                        <h3><span id="like-number-middle">12</span> like(s)</h3>
+                        <button onclick="increaseMiddleLikes()">Like</button>
+                    </div>
+                </div>
+                <div class="message-box-bottom">
+                    <p>Just finished my <span>next comic</span>, check it out.</p>
+                </div>
+            </div>
+            <div class="message-box">
+                <div class="message-box-top">
+                    <div class="message-box-top-left">
+                        <h2>Jim R</h2>
+                    </div>
+                    <div class="message-box-top-right">
+                        <h3><span id="like-number-bottom">9</span> like(s)</h3>
+                        <button onclick="increaseBottomLikes()">Like</button>
+                    </div>
+                </div>
+                <div class="message-box-bottom">
+                    <p>I can't stop listening to the <span>new album</span>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
